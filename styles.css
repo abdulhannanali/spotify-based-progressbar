@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header-details {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span.red {
+    color: red;
+}
+
+span.yellow {
+    color: yellow;
+}
+
+span.green {
+    color: green;
+}
+
+.logo {
+    text-decoration: none;
+    color: #1db954;
+    height: 40px;
+}
+
+.logo svg {
+    height: 40px;
+}
+
+.bar-goes-here {
+    margin: auto;
+    width: 60%;
+    padding: 1px;
+    text-align: center;
+}
+
+.progress-bar {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    /* `width` is going to be specified programatically */
+}
+
+.smashing-credit {
+    display: inline-block;
+    color: #2C8694;
+    padding: 15px;
+    background-color: #e9e9e9;
+}
+
+.smashing-credit a {
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #F16A82;
+    line-height: 10px;
+    padding: 20px;
+}
+
+.progress-bar__bg {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.progress-bar__fg {
+    border-radius: 2px;
+    height: 100%;
+}
+
+.demo {
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.progress-controls {
+    margin: 20px;
+}
+
+.control {
+    margin: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.color {
+    color: indigo;
+}
+
+
+.extensibility {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.source-fork {
+    border-top: 2px #e9e9e9 solid;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.source-fork .github-link {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.logs .desc {
+    font-size: 20px;
+}

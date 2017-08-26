@@ -1,0 +1,20 @@
+{
+  "name": "api-extensibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-watch": "webpack --watch *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "mitt": "^1.1.2"
+  }
+}
