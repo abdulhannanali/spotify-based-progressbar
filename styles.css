@@ -110,7 +110,7 @@ span.green {
     padding: 10px;
 }
 
-.source-fork .github-link {
+a {
     color: #1db954;
     text-decoration: none;
 }
